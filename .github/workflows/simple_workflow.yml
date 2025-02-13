@@ -2,7 +2,7 @@
 
 name: POC-WINFLEX-25
 
-run-name: Started by @${{ github.actor }} on ${{ github.base_ref }} branch, commit ${{ github.sha }}
+run-name: Started by @${{ github.actor }} with commit ${{ github.sha }} on target branch ${{ github.base_ref }} branch
 
 # Controls when the workflow will run
 on:
@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hola, Winflex!
+        run: echo Hola, Winflex-Mate. Doing an amazing and super important work here. Do not disturb me!
