@@ -31,7 +31,8 @@ jobs:
       - run: echo "🔎 The commit sha is ${{ github.sha }}."
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: Check out repository code
+        uses: actions/checkout@v4
 
       # Runs a single command using the runners shell
       - name: Staging this magnificent application to DEV
