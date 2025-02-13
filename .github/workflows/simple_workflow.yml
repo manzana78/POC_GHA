@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: POC-WINFLEX-25
+name: BUILD_AND_TEST_PULL_REQUEST
 
 run-name: Started by @${{ github.actor }} with commit ${{ github.sha }} on target branch ${{ github.base_ref }} branch
 
