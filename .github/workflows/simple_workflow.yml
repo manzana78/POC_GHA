@@ -31,3 +31,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Amazing and Super Important Step
         run: echo Hola, Winflex-Mate. I am working so hard for this App, do not disturb me!
+      - name: Checking secret redaction by default
+        run: echo This secret value should be redacted by GitHub '${{ secrets.MY_SUPER_SECRET_THING }}'
