@@ -1,8 +1,8 @@
 # This is a basic workflow to help you get started with Actions
 
-name: POC-WINFLEX-25
+name: STAGE_TO_DEV
 
-run-name: Started by @${{ github.actor }} with commit ${{ github.sha }} on target branch ${{ github.base_ref }} branch
+run-name: Staging triggered by @${{ github.actor }} with commit ${{ github.sha }} on target branch ${{ github.base_ref }} branch
 
 # Controls when the workflow will run
 on:
