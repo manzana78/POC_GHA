@@ -29,5 +29,5 @@ jobs:
       - uses: actions/checkout@v4
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hola, Winflex-Mate. Doing an amazing and super important work here. Do not disturb me!
+      - name: Amazing and Super Important Step
+        run: echo Hola, Winflex-Mate. I am working so hard for this App, do not disturb me!
